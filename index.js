@@ -2,7 +2,7 @@ var Typer = {
   text: '',
   accessCountimer: null,
   index: 0,
-  speed: 2,
+  speed: 1.5,
   file: '',
   accessCount: 0,
   deniedCount: 0,
@@ -95,7 +95,7 @@ function replaceUrls(text) {
   }
 }
 
-Typer.speed = 4;
+Typer.speed = 2;
 Typer.file = 'script.txt';
 Typer.init();
 
